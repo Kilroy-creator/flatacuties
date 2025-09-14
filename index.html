@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flatacuties </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> Flatacuties – Vote the Cutest!</h1>
+
+  <div id="container">
+    <!-- Left: List -->
+    <div id="sidebar">
+      <h2>Animals</h2>
+      <ul id="animal-list"></ul>
+    </div>
+
+    <!-- Right: Details -->
+    <div id="details">
+      <h2>Details</h2>
+      <div id="animal-details">
+        <p>Select an animal to see details</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bonus: Add new animal -->
+  <div id="form-section">
+    <h2>Add a New Animal</h2>
+    <form id="add-animal-form">
+      <input type="text" name="name" placeholder="Animal Name" required>
+      <input type="url" name="image" placeholder="Image URL" required>
+      <button type="submit">Add Animal</button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
